@@ -1,26 +1,29 @@
-<!-- See https://github.com/guardian/recommendations/blob/main/pull-requests.md for recommendations on raising and reviewing pull requests. -->
+### 📌 Pull Request Summary
+<!-- Provide a brief summary of the changes made in this PR. -->
 
-## What does this change?
+### 🔍 Changes in This PR
+<!-- List or describe the changes made in this PR. -->
 
-A PR should have enough detail to be understandable far in the future. e.g what is the problem/why is the change needed, how does it solve it and any questions or points of discussion.
+### 👤 Contributors
+- @your-username (Main Contributor)
+- @co-author (if applicable)
 
-## How to test
+### ✅ Checklist
+- [ ] Linting has been applied (`flake8`, `black`, etc.).
+- [ ] Docstrings are present for all functions and files.
+- [ ] Type hints are used for all functions and variables.
+- [ ] Line comments are used within reason and where necessary.
+- [ ] You are using the correct naming conventions for functions and variables.
+- [ ] Relevant documentation is updated (README, Wiki, etc.).
+- [ ] Example configuration files are provided (if relevant).
+- [ ] Your requirements.txt file contains fixed versions.
+- [ ] This PR has been tested and reviewed before submission.
 
-Provide instructions to help others verify the change. This could take the form of "On PROD, do X and witness Y. On this branch, do X and witness Z. "
+### 🛠 How to Test
+<!-- If relevant, describe the testing steps and how reviewers can verify the changes. -->
 
-## How can we measure success?
+### 📝 Additional Notes
+<!-- Any additional information or context for the reviewers. -->
 
-Do you expect errors to decrease? Do you expect user journeys to be simplified? What can be used to prove this? A filtered view of logs or analytics, etc?
-
-## Have we considered potential risks?
-
-What are the potential risks and how can they be mitigated? Does an error require an alarm? Should user help, infosec, or legal be informed of this change? Is private information guarded? Do we need to add anything in the backlog?
-
-## Accessibility
-
-<!-- Usually only applicable to UI changes, check the boxes if you are satisfied that your changes pass these tests -->
-
--   [ ] [Tested with screen reader](https://github.com/guardian/accessibility/blob/main/people-and-technology/03-visual.md#screen-reader)
--   [ ] [Navigable with keyboard](https://github.com/guardian/accessibility/blob/main/people-and-technology/02-physical.md#keyboard)
--   [ ] [Colour contrast passed](https://github.com/guardian/accessibility/blob/main/people-and-technology/03-visual.md#contrast)
--   [ ] [The change doesn't use only colour to convey meaning](https://github.com/guardian/accessibility/blob/main/people-and-technology/03-visual.md#use-of-colour)
+### 🔗 Related Issues/Tickets
+<!-- Link any relevant issues or tickets. -->
