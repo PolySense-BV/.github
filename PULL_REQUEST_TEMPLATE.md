@@ -17,6 +17,8 @@
 - [ ] Relevant documentation is updated (README, Wiki, etc.).
 - [ ] Example configuration files are provided (if relevant).
 - [ ] Your requirements.txt file contains fixed versions.
+- [ ] No keys or passwords pushed.
+- [ ] Large/unneeded/personal files are added to gitignore.
 - [ ] This PR has been tested and reviewed before submission.
 
 ### 🛠 How to Test
