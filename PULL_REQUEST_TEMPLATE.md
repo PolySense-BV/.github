@@ -9,12 +9,13 @@
 - @co-author (if applicable)
 
 ### ✅ Checklist
+- [ ] Confluence documentation linked in PR
+- [ ] Relevant documentation is updated (README, Confluence, etc.).
 - [ ] Linting has been applied (`flake8`, `black`, etc.).
 - [ ] Docstrings are present for all functions and files.
 - [ ] Type hints are used for all functions.
 - [ ] Line comments are used within reason and where necessary.
 - [ ] You are using the correct naming conventions for functions and variables.
-- [ ] Relevant documentation is updated (README, Wiki, etc.).
 - [ ] Example configuration files are provided (if relevant).
 - [ ] Your requirements.txt file contains fixed versions.
 - [ ] No keys or passwords pushed.
