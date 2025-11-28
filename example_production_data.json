@@ -1,0 +1,294 @@
+{
+  "production_period": {
+    "start": "2025-11-28T00:00:00Z",
+    "end": "2025-11-28T23:59:59Z",
+    "lines": ["Line_1", "Line_2", "Line_3"]
+  },
+  "time_series_data": [
+    {
+      "timestamp": "2025-11-28T06:00:00Z",
+      "line_id": "Line_3",
+      "shift": "morning",
+      "hour_aggregation": {
+        "total_units": 5140,
+        "defect_count": 31,
+        "defect_rate": 0.0060,
+        "metrics": {
+          "avg_size_mm": 245.2,
+          "size_std_dev_mm": 1.8,
+          "color_variance": 0.03,
+          "cycle_time_ms": 1245,
+          "temperature_celsius": 85.0,
+          "pressure_bar": 4.5,
+          "humidity_percent": 45.2
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 12,
+          "color_defect": 8,
+          "surface_defect": 11
+        }
+      }
+    },
+    {
+      "timestamp": "2025-11-28T07:00:00Z",
+      "line_id": "Line_3",
+      "shift": "morning",
+      "hour_aggregation": {
+        "total_units": 5180,
+        "defect_count": 36,
+        "defect_rate": 0.0069,
+        "metrics": {
+          "avg_size_mm": 245.1,
+          "size_std_dev_mm": 1.9,
+          "color_variance": 0.04,
+          "cycle_time_ms": 1248,
+          "temperature_celsius": 85.5,
+          "pressure_bar": 4.5,
+          "humidity_percent": 46.1
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 14,
+          "color_defect": 10,
+          "surface_defect": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2025-11-28T14:00:00Z",
+      "line_id": "Line_3",
+      "shift": "afternoon",
+      "hour_aggregation": {
+        "total_units": 5200,
+        "defect_count": 89,
+        "defect_rate": 0.0171,
+        "metrics": {
+          "avg_size_mm": 246.8,
+          "size_std_dev_mm": 3.2,
+          "color_variance": 0.04,
+          "cycle_time_ms": 1305,
+          "temperature_celsius": 92.3,
+          "pressure_bar": 4.5,
+          "humidity_percent": 47.3
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 58,
+          "color_defect": 12,
+          "surface_defect": 19
+        },
+        "anomaly_flags": {
+          "temperature_spike": true,
+          "defect_rate_spike": true,
+          "size_variance_high": true
+        }
+      }
+    },
+    {
+      "timestamp": "2025-11-28T15:00:00Z",
+      "line_id": "Line_3",
+      "shift": "afternoon",
+      "hour_aggregation": {
+        "total_units": 5150,
+        "defect_count": 95,
+        "defect_rate": 0.0184,
+        "metrics": {
+          "avg_size_mm": 247.2,
+          "size_std_dev_mm": 3.5,
+          "color_variance": 0.05,
+          "cycle_time_ms": 1320,
+          "temperature_celsius": 91.8,
+          "pressure_bar": 4.5,
+          "humidity_percent": 48.1
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 65,
+          "color_defect": 11,
+          "surface_defect": 19
+        },
+        "anomaly_flags": {
+          "temperature_spike": true,
+          "defect_rate_spike": true,
+          "size_variance_high": true
+        }
+      }
+    },
+    {
+      "timestamp": "2025-11-28T16:00:00Z",
+      "line_id": "Line_3",
+      "shift": "afternoon",
+      "hour_aggregation": {
+        "total_units": 5210,
+        "defect_count": 78,
+        "defect_rate": 0.0150,
+        "metrics": {
+          "avg_size_mm": 246.1,
+          "size_std_dev_mm": 2.8,
+          "color_variance": 0.04,
+          "cycle_time_ms": 1290,
+          "temperature_celsius": 89.5,
+          "pressure_bar": 4.5,
+          "humidity_percent": 47.8
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 48,
+          "color_defect": 13,
+          "surface_defect": 17
+        },
+        "anomaly_flags": {
+          "temperature_spike": true,
+          "defect_rate_spike": true
+        }
+      }
+    },
+    {
+      "timestamp": "2025-11-28T17:00:00Z",
+      "line_id": "Line_3",
+      "shift": "afternoon",
+      "hour_aggregation": {
+        "total_units": 5180,
+        "defect_count": 62,
+        "defect_rate": 0.0120,
+        "metrics": {
+          "avg_size_mm": 245.6,
+          "size_std_dev_mm": 2.2,
+          "color_variance": 0.04,
+          "cycle_time_ms": 1268,
+          "temperature_celsius": 87.2,
+          "pressure_bar": 4.5,
+          "humidity_percent": 46.9
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 35,
+          "color_defect": 12,
+          "surface_defect": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2025-11-28T18:00:00Z",
+      "line_id": "Line_3",
+      "shift": "afternoon",
+      "hour_aggregation": {
+        "total_units": 5160,
+        "defect_count": 38,
+        "defect_rate": 0.0074,
+        "metrics": {
+          "avg_size_mm": 245.3,
+          "size_std_dev_mm": 1.9,
+          "color_variance": 0.03,
+          "cycle_time_ms": 1252,
+          "temperature_celsius": 85.8,
+          "pressure_bar": 4.5,
+          "humidity_percent": 46.2
+        },
+        "defect_breakdown": {
+          "size_out_of_spec": 15,
+          "color_defect": 10,
+          "surface_defect": 13
+        }
+      }
+    }
+  ],
+  "images_available": [
+    {
+      "image_id": "img_20251128_140015_line3_cam1",
+      "timestamp": "2025-11-28T14:00:15Z",
+      "line_id": "Line_3",
+      "camera_id": "cam_1",
+      "storage_path": "s3://production-images/2025/11/28/14/img_20251128_140015_line3_cam1.jpg",
+      "metadata": {
+        "resolution": "1920x1080",
+        "has_defects": true,
+        "defect_types": ["size_out_of_spec"],
+        "product_count": 4
+      }
+    },
+    {
+      "image_id": "img_20251128_140515_line3_cam1",
+      "timestamp": "2025-11-28T14:05:15Z",
+      "line_id": "Line_3",
+      "camera_id": "cam_1",
+      "storage_path": "s3://production-images/2025/11/28/14/img_20251128_140515_line3_cam1.jpg",
+      "metadata": {
+        "resolution": "1920x1080",
+        "has_defects": true,
+        "defect_types": ["size_out_of_spec", "warping"],
+        "product_count": 4
+      }
+    },
+    {
+      "image_id": "img_20251128_141015_line3_cam1",
+      "timestamp": "2025-11-28T14:10:15Z",
+      "line_id": "Line_3",
+      "camera_id": "cam_1",
+      "storage_path": "s3://production-images/2025/11/28/14/img_20251128_141015_line3_cam1.jpg",
+      "metadata": {
+        "resolution": "1920x1080",
+        "has_defects": true,
+        "defect_types": ["size_out_of_spec", "warping"],
+        "product_count": 4
+      }
+    },
+    {
+      "image_id": "img_20251128_143015_line3_cam1",
+      "timestamp": "2025-11-28T14:30:15Z",
+      "line_id": "Line_3",
+      "camera_id": "cam_1",
+      "storage_path": "s3://production-images/2025/11/28/14/img_20251128_143015_line3_cam1.jpg",
+      "metadata": {
+        "resolution": "1920x1080",
+        "has_defects": true,
+        "defect_types": ["size_out_of_spec", "warping", "deformation"],
+        "product_count": 4
+      }
+    }
+  ],
+  "historical_context": {
+    "similar_incidents": [
+      {
+        "date": "2025-06-15",
+        "line_id": "Line_3",
+        "incident_type": "temperature_spike_size_defects",
+        "description": "Temperature spike to 94°C caused 2.1% defect rate increase",
+        "root_cause": "Cooling system filter clogged",
+        "resolution": "Filter replacement",
+        "time_to_resolve_hours": 2,
+        "units_affected": 820
+      },
+      {
+        "date": "2025-03-03",
+        "line_id": "Line_2",
+        "incident_type": "temperature_spike_size_defects",
+        "description": "Temperature spike to 89°C caused 1.2% defect rate increase",
+        "root_cause": "HVAC failure during hot weather",
+        "resolution": "HVAC repair + enhanced cooling protocol",
+        "time_to_resolve_hours": 4,
+        "units_affected": 450
+      }
+    ],
+    "maintenance_logs": [
+      {
+        "date": "2025-11-01",
+        "line_id": "Line_3",
+        "maintenance_type": "scheduled",
+        "components": ["cooling_system", "filters"],
+        "notes": "Regular maintenance completed. All systems nominal."
+      },
+      {
+        "date": "2025-11-26",
+        "line_id": "Line_3",
+        "maintenance_type": "calibration",
+        "components": ["extruder"],
+        "notes": "Extruder recalibrated after shift handover report of minor issues."
+      }
+    ]
+  },
+  "baseline_statistics": {
+    "line_3_30_day_avg": {
+      "defect_rate": 0.0105,
+      "avg_size_mm": 245.1,
+      "size_std_dev_mm": 1.9,
+      "temperature_celsius": 85.2,
+      "cycle_time_ms": 1250
+    }
+  }
+}
