@@ -21,6 +21,7 @@
 - [ ] No keys or passwords pushed.
 - [ ] Large/unneeded/personal files are added to gitignore.
 - [ ] This PR has been tested and reviewed before submission.
+- [ ] If relevant: the Proto Hub is updated according to changes in the gRPC interface
 
 ### 🛠 How to Test
 <!-- If relevant, describe the testing steps and how reviewers can verify the changes. -->
