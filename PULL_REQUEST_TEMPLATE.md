@@ -9,18 +9,15 @@
 - @co-author (if applicable)
 
 ### ✅ Checklist
-- [ ] Confluence documentation linked in PR
-- [ ] Relevant documentation is updated (README, Confluence, etc.).
-- [ ] Linting has been applied (`flake8`, `black`, etc.).
-- [ ] Docstrings are present for all functions and files.
-- [ ] Type hints are used for all functions.
-- [ ] Line comments are used within reason and where necessary.
-- [ ] You are using the correct naming conventions for functions and variables.
-- [ ] Example configuration files are provided (if relevant).
-- [ ] Your requirements.txt file contains fixed versions.
-- [ ] No keys or passwords pushed.
-- [ ] Large/unneeded/personal files are added to gitignore.
-- [ ] This PR has been tested and reviewed before submission.
+- [ ] I have self-reviewed every line of this diff (including AI-generated code).
+- [ ] Tests are added or updated for the changes (or N/A — explain in Notes).
+- [ ] CI is green (lint, type-check, tests).
+- [ ] Documentation is updated where relevant (README, Confluence — link it above).
+- [ ] Breaking changes, DB migrations, and new env vars are called out (`.env.example` / sample configs updated).
+- [ ] No secrets committed (keys, tokens, passwords, connection strings).
+- [ ] No large, generated, or personal files committed (gitignore updated if needed).
+- [ ] UI changes include screenshots or a short recording.
+- [ ] This PR covers one concern; unrelated changes are split out.
 
 ### 🛠 How to Test
 <!-- If relevant, describe the testing steps and how reviewers can verify the changes. -->
