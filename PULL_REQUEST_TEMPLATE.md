@@ -36,7 +36,12 @@ A reading order, not a list of changes. The diff already says what changed. This
 think about, and in what order.
 
 ORDER so the file that establishes an idea comes before the files that use it. Group by the thing
-being changed, not by folder. EVERY file in the diff appears, so nothing goes unaccounted for.
+being changed, not by folder.
+
+COVER what needs judgement, not every file. A lockfile bump or a mechanical rename gives a reviewer
+nothing to decide, and an entry invented for it buries the files that do. GitHub's Files tab is
+already the complete list. Leaving a file out is not the same as telling someone to skip it: say
+nothing about it rather than rating it.
 
 Three lines per entry:
   What it is    - the file's job. The reviewer may never have opened it.
@@ -46,17 +51,17 @@ Three lines per entry:
 Never rate how hard to look. "The rest is mechanical, feel free to skim" tells a reviewer to stop
 looking, and the miss it causes is silent. Where you made a decision inside this diff that is
 still reversible, end with a question the reviewer can answer against you:
-  "I chose to discard invalid IDs rather than throw. Is that the right contract?"
+  "I chose to fail the whole batch rather than skip the bad row. Is that the right contract?"
 That invites scrutiny at the point it matters. Scope and product questions are a different thing:
 if one is still open, the spec is not finished, and it belongs there rather than here.
 -->
 
-**1. `path/to/file.ts` (+79 −10)**
+**1. `path/to/file.ts`**
 *What it is:*
 *What changed:*
 *What to check:*
 
-**2. `path/to/other.ts` (+23 −6)**
+**2. `path/to/other.ts`**
 *What it is:*
 *What changed:*
 *What to check:*
