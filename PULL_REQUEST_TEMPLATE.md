@@ -29,6 +29,21 @@ Nth of M in the <name> stack. Base branch is `F-xxx` (#NN); merge order **#NN ->
 1. #NN (`branch`): what it does.
 2. #NN (`branch`, this PR): what it does.
 
+### 🚀 Deployment Notes
+
+<!--
+Optional. Delete when merge and deploy is all this needs.
+Keep this section when anything must happen around the deploy that the diff cannot show: a
+migration, a one-off DB fix or backfill, a manual step, an order dependency with another
+service's release, or a flag that must flip after rollout. Common on UI PRs touching the backend
+they call.
+-->
+
+- **Migration:** name, and whether it is safe to run before the old code stops running (backward compatible with the previous release?).
+- **Manual step:** what to run, where, and by whom.
+- **Order:** must deploy before/after `<other service or PR>`.
+- **Rollback:** what breaks if this is rolled back after the migration already ran.
+
 ### 🧭 Review Route
 
 <!--
@@ -93,7 +108,7 @@ came from an older run.
 - [ ] Tests are added or updated for the changes (or N/A — explain in Notes).
 - [ ] CI is green (lint, type-check, tests).
 - [ ] Documentation is updated where relevant (README, Confluence — link it above).
-- [ ] Breaking changes, DB migrations, and new env vars are called out (`.env.example` / sample configs updated).
+- [ ] Breaking changes, DB migrations, and new env vars are called out (`.env.example` / sample configs updated, Deployment Notes filled in above).
 - [ ] No secrets committed (keys, tokens, passwords, connection strings).
 - [ ] No large, generated, or personal files committed (gitignore updated if needed).
 - [ ] UI changes include screenshots or a short recording.
